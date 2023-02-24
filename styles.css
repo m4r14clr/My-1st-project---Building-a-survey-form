@@ -1,0 +1,83 @@
+header{
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+#title{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 632px;
+}
+
+#name{
+    width: 632px;
+}
+
+#email{
+    width: 632px;
+}
+
+#number{
+    width: 632px;
+}
+
+#description{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 632px;
+    align-items: center;
+}
+
+body{
+    background-color:#898989;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255,255,255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form{
+    background-color: #3f3e3f;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 632px;
+    align-items: center;
+    border-radius: 2.25rem;
+}
+
+label{
+    display:inline-block;
+}
+
+div{
+    max-width: 632px;
+}
+
+.personalinfo{
+    text-align: center;
+     
+}
+
+.socialmedia{
+    display:block;
+}
+
+textarea{
+    width: 99%;
+}
+
+button{
+    width: 100%;
+}
+
+select{
+    width: 100%;
+}
+
+.personalinfo{
+    width: 100%;
+    background-color: rgb(255,255,255);
+}
