@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media - Survey Form</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">The use of social media amongst millenials - Survey Form</h1>
+      <p id="description">How frequently do millenials access social media platforms? The current survey form aims to collect data on that question. If you are part of that generation, please fill out the following form with the required information.</p>
+    </header>
+    <form id="survey-form">
+      <div>
+        <label for="name-label">Name:<br>
+        <input type="text" id="name" required placeholder="Write your name" class="personalinfo"></label><br>
+      </div>
+      <br>
+      <div>
+        <label for="email-label">Email: <input type="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Write your email" class="personalinfo"></label><br>
+      </div>
+      <br>
+      <div>
+        <label for="number-label">  Phone: <input type="phone" id="number" pattern="[0-9]*" min="0" max="9999999999999999" placeholder="Write your phone number" class="personalinfo"></label><br>
+      </div>
+      <br>
+      <div id="question1">
+        <p>Do you use social media every day?</p>
+        <label>
+          <input type="radio" name="yes-no" id="yes" value="yes" class="input-radio" checked> Yes
+        </label>
+        <label>
+        <input type="radio" name="yes-no" id="no" value="no" class="input-radio"> No
+        </label>
+      </div>
+      <div id="question2">
+        <p>How much time do you spend on social media daily?</p>
+        <select id="dropdown" name="hours" class="dropdownoptions" required>
+          <option>Less than 1 hour</option>
+          <option>Between 1-2hours</option> 
+          <option>Between 2-4hours</option> 
+          <option>More than 4 hours</option>
+        </select>
+      </div>
+      <p>What social media platforms do you use?</p>
+      <div id="question3">
+        <div id="firstgroup">
+          <label class="socialmedia"><input type="checkbox" id="instagram">Instagram</label>
+          <label class="socialmedia"><input type="checkbox" id="tiktok">TikTok</label>
+          <label class="socialmedia"><input type="checkbox" id="twitter">Twitter</label>
+          <label class="socialmedia"><input type="checkbox" id="bereal">BeReal</label>
+        </div>
+        <div id="secondgroup">
+          <label class="socialmedia"><input type="checkbox" id="whatsapp">Whatsapp</label>
+          <label class="socialmedia"><input type="checkbox" id="telegram">Telegram</label>
+          <label class="socialmedia"><input type="checkbox" id="youtube">Youtube</label>
+          <label class="socialmedia"><input type="checkbox" id="snapchat">Snapchat</label>
+        </div>
+        <div id="thirdgroup">
+          <label class="socialmedia"><input type="checkbox" id="pinterest">Pinterest</label>
+          <label class="socialmedia"><input type="checkbox" id="linkedin">Linkedin</label>
+          <label class="socialmedia"><input type="checkbox" id="kwai">Kwai</label>
+          <label class="socialmedia"><input type="checkbox" id="reddit">Reddit</label>
+        </div>
+      </div>
+      <div id="question4">
+        <p>How does social media affect your life, positively or negatively?</p>
+        <textarea rows="4" cols="50" name="message" placeholder="Write your answer here..."></textarea>
+      </div>
+      <br>
+      <div id="button">
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+  
+</html>
